@@ -84,7 +84,7 @@ section {
 /***Home***/
 /**********/
 #home {
-    background-image: linear-gradient(#000000b7, #000000b7), url("/img/cafe_de_olla.jpg");
+    background-image: linear-gradient(#000000b7, #000000b7), url("../img/cafe_de_olla.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -234,10 +234,10 @@ div.rotate-left {
     font-style: normal;
 }
 .history-top-image {
-    background-image: linear-gradient(#00000000, #00000000), url("/img/adelitas_image.jpg");
+    background-image: linear-gradient(#00000000, #00000000), url("../img/adelitas_image.jpg");
 }
 .history-bottom-image {
-    background-image: linear-gradient(#00000000, #00000000), url("/img/cafe-de-olla-image.jpg");
+    background-image: linear-gradient(#00000000, #00000000), url("../img/cafe-de-olla-image.jpg");
 }
 .history-top-image,
 .history-bottom-image {
