@@ -1,0 +1,314 @@
+/*TO DO: FIX HERO IMAGE AND BOTTOM IMAGE*/
+html {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: auto;
+}
+*, 
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #EADBC8;
+}
+/*********************/
+/***Shared contents***/
+/*********************/
+h1,
+h2,
+h3,
+h4,
+p {
+    text-align: center;
+    color: #493628;
+    font-family: "Chilanka", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.business-name > h1,
+.business-name > h2,
+.individual-navlinks > li > a,
+.icons > a,
+.address > h3,
+.address > p,
+.copyright > p,
+.copyright > p > a {
+    color: #f0dbba;
+    font-family: "Chilanka", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+section {
+    background-color: #EADBC8;
+}
+.section-heading {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/****************/
+/***Navigation***/
+/****************/
+.navbar {
+    background-color: #4d3726;
+}
+/*Color of the Nav button*/
+.navbar-toggler {
+    background-color: #20180b;
+}
+.individual-navlinks {
+    font-size: 25px;
+}
+.individual-navlinks > li {
+    position: relative;
+}
+.about-button:hover {
+    color: #1686ff;
+
+}
+.gallery-button:hover {
+    color: #13ca5d;
+}
+.menu-button:hover {
+    color: #ff9114;
+}
+.history-button:hover {
+    color: #bb028d;
+}
+/**********/
+/***Home***/
+/**********/
+#home {
+    background-image: linear-gradient(#000000b7, #000000b7), url("/img/cafe_de_olla.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1400px;
+}
+.business-name {
+    display: block;
+    top: 300px;
+}
+.business-name > h1,
+.business-name > h2 {
+    font-family: "Rancho", cursive;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.1em;
+}
+.top-logo {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    top: 300px;
+}
+.top-logo > img {
+    width: 400px;
+    height: auto;
+    border-radius: 560px;
+    margin-top: 20px;
+}
+/*************/
+/****About****/
+/*************/
+.row-contents {
+    padding: 70px;
+}
+.about-owner-text {
+    margin-top: 30px;
+}
+.about-owner-text > p {
+    position: relative;
+    font-size: 15px;
+    margin: 40px;
+}
+.owner-photo > img {
+    border: 10px solid #241600;
+}
+.section-divider {
+    border-bottom: 2px solid #000000;
+}
+/***************/
+/****Gallery****/
+/***************/
+#gallery {
+    padding-bottom: 100px;
+}
+.gallery-container {
+    width: 75%;
+}
+
+.polaroid-hero {
+    position: relative;
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+div.polaroid-container {
+    background-color: #000000;
+    height: 500px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    border: 1px solid #bfbfbf;
+    background-color: white;
+    box-shadow: 10px 10px 5px #6b6b6b;
+}
+.polaroid-container {
+    font-size: 13px;
+}
+.polaroid-container > img {
+    display: block;
+    object-fit: cover;
+    width: 300px;
+    height: auto;
+}
+/*Rotate images to the right*/
+div.rotate-right {
+    float: left;
+    transform: rotate(10deg);
+}
+/*Rotate images to the left*/
+div.rotate-left {
+    float: left;
+    transform: rotate(-8deg);
+}
+/************/
+/****Menu****/
+/************/
+.menu-top-decoration {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.menu-top-decoration > img {
+    width: 1000px;
+    height: auto;
+}
+.weekly-favorite-container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #e51d24;
+}
+.weekly-favorite-container > p,
+.weekly-favorite-container > h2
+{
+    color: #ffffff;
+    padding-top: 10px;
+}
+
+/***************/
+/****HISTORY****/
+/***************/
+.history-text-container {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.history-text-container > h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.history-text-row {
+    margin: 20px;
+}
+.history-text {
+    height: 400px;
+}
+.ingredient-list {
+    list-style-type: none;
+    text-align: center;
+    color: #493628;
+    font-family: "Chilanka", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.history-top-image {
+    background-image: linear-gradient(#00000000, #00000000), url("/img/adelitas_image.jpg");
+}
+.history-bottom-image {
+    background-image: linear-gradient(#00000000, #00000000), url("/img/cafe-de-olla-image.jpg");
+}
+.history-top-image,
+.history-bottom-image {
+    background-color: #ded0be;
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: relative;
+}
+/**************/
+/****FOOTER****/
+/**************/
+footer {
+    width: 100%;
+    position: relative;
+    padding: 50px;
+    background-color: #4d3726;
+}
+.footer-logo {
+    display: flex;
+    justify-content: center;
+}
+.footer-logo > a > img {
+    width: 300px;
+    height: auto;
+    border-radius: 160px;
+    margin-top: 20px;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+}
+.icons > a {
+    margin-top: 100px;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-size: 50px;
+}
+.facebook-icon:hover {
+    color: #1877F2;
+}
+.instagram-icon:hover {
+    color: #c13584;
+}
+.tiktok-icon:hover {
+    color: #ff0050;
+}
+.phone-icon:hover {
+    color: #6f00ff;
+}
+.address {
+    margin-top: 100px;
+}
+.address > h3 {
+    position: relative;
+    bottom: 40px;
+    font-size: 50px;
+}
+.copyright {
+    font-size: 15px;
+    position: relative;
+    top: 45px;
+}
+.copyright > p {
+    position: relative;
+    top: 10px;
+}
+.copyright > p > a {
+    text-decoration: none;
+}
+.copyright > p > a:hover {
+    color: #F8F8F8;
+}
